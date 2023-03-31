@@ -1,0 +1,23 @@
+#+TITLE: go100
+#+AUTHOR: wlianfu
+#+DATE: 2023
+#+EMAIL: wlianfu@163.com
+#+OPTIONS: go100
+
+-----
+
+***** 学习资料
+
++ [[https://gobyexample.com/][Go by Example]]
++ [[http://c.biancheng.net/golang/][Go语言入门教程]]
++ [[https://learnku.com/docs/the-way-to-go][《The Way to Go》中文译本]]
++ [[https://learnku.com/go/docs][Go社区文档]]
++ [[https://learn.microsoft.com/zh-cn/training/paths/go-first-steps/][Microsoft Go学习]]
++ [[https://geekr.dev/golang-tutorial][Go 入门到精通教程]]
++ [[https://www.topgoer.cn/][地鼠文档]]
+
+***** 其它
+
++ [[https://github.com/golang/go/wiki/GoUsers][Go Users]]
+
+-----

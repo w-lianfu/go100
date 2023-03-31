@@ -1,0 +1,11 @@
+#+TITLE: go100
+#+AUTHOR: wlianfu
+#+DATE: 2023
+#+EMAIL: wlianfu@163.com
+#+OPTIONS: go100
+
+-----
+
++ Welcome
+
+-----
