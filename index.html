@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-03-31 Fri 17:09 -->
+<!-- 2023-04-03 Mon 16:14 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>go100</title>
@@ -201,16 +201,104 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org5b4c11b">1. 学习资料</a></li>
-<li><a href="#orgace854a">2. 其它</a></li>
+<li><a href="#org9cc9063">1. 字符串格式化</a></li>
+<li><a href="#org45f7656">2. 学习资料</a></li>
+<li><a href="#org82ae19a">3. 其它</a></li>
 </ul>
 </div>
 </div>
 <hr />
 
-<div id="outline-container-org5b4c11b" class="outline-2">
-<h2 id="org5b4c11b"><span class="section-number-2">1.</span> 学习资料</h2>
+<div id="outline-container-org9cc9063" class="outline-2">
+<h2 id="org9cc9063"><span class="section-number-2">1.</span> 字符串格式化</h2>
 <div class="outline-text-2" id="text-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">功能</th>
+<th scope="col" class="org-left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">%v</td>
+<td class="org-left">按本值输出</td>
+</tr>
+
+<tr>
+<td class="org-left">%+v</td>
+<td class="org-left">在%v基础上，对结构体字段名和值进行展开</td>
+</tr>
+
+<tr>
+<td class="org-left">%#v</td>
+<td class="org-left">输出Go语言语法格式的值</td>
+</tr>
+
+<tr>
+<td class="org-left">%T</td>
+<td class="org-left">输出Go语言语法格式的类型和值</td>
+</tr>
+
+<tr>
+<td class="org-left">%%</td>
+<td class="org-left">输出 % 本体</td>
+</tr>
+
+<tr>
+<td class="org-left">%b</td>
+<td class="org-left">整型以二进制方式显示</td>
+</tr>
+
+<tr>
+<td class="org-left">%o</td>
+<td class="org-left">整型以八进制方式显示</td>
+</tr>
+
+<tr>
+<td class="org-left">%d</td>
+<td class="org-left">整型以十进制方式显示</td>
+</tr>
+
+<tr>
+<td class="org-left">%x</td>
+<td class="org-left">整型以十六进制方式显示</td>
+</tr>
+
+<tr>
+<td class="org-left">%X</td>
+<td class="org-left">整型以十六进制、字母大写方式显示</td>
+</tr>
+
+<tr>
+<td class="org-left">%U</td>
+<td class="org-left">Unicode 字符</td>
+</tr>
+
+<tr>
+<td class="org-left">%f</td>
+<td class="org-left">浮点数</td>
+</tr>
+
+<tr>
+<td class="org-left">%p</td>
+<td class="org-left">指针，十六进制方式显示</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org45f7656" class="outline-2">
+<h2 id="org45f7656"><span class="section-number-2">2.</span> 学习资料</h2>
+<div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li><a href="https://gobyexample.com/">Go by Example</a></li>
 <li><a href="http://c.biancheng.net/golang/">Go语言入门教程</a></li>
@@ -223,9 +311,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgace854a" class="outline-2">
-<h2 id="orgace854a"><span class="section-number-2">2.</span> 其它</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org82ae19a" class="outline-2">
+<h2 id="org82ae19a"><span class="section-number-2">3.</span> 其它</h2>
+<div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li><a href="https://github.com/golang/go/wiki/GoUsers">Go Users</a></li>
 </ul>
@@ -237,7 +325,7 @@
 <div id="postamble" class="status">
 <p class="date">Date: 2023</p>
 <p class="author">Author: wlianfu</p>
-<p class="date">Created: 2023-03-31 Fri 17:09</p>
+<p class="date">Created: 2023-04-03 Mon 16:14</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
