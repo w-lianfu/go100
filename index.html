@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-04-03 Mon 16:14 -->
+<!-- 2023-04-03 Mon 16:26 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>go100</title>
@@ -201,17 +201,40 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org9cc9063">1. 字符串格式化</a></li>
-<li><a href="#org45f7656">2. 学习资料</a></li>
-<li><a href="#org82ae19a">3. 其它</a></li>
+<li><a href="#org24cfe87">1. 字符</a></li>
+<li><a href="#orgf93c832">2. 字符串格式化</a></li>
+<li><a href="#org4e605bc">3. 学习资料</a></li>
+<li><a href="#org6b02476">4. 其它</a></li>
 </ul>
 </div>
 </div>
 <hr />
 
-<div id="outline-container-org9cc9063" class="outline-2">
-<h2 id="org9cc9063"><span class="section-number-2">1.</span> 字符串格式化</h2>
+<div id="outline-container-org24cfe87" class="outline-2">
+<h2 id="org24cfe87"><span class="section-number-2">1.</span> 字符</h2>
 <div class="outline-text-2" id="text-1">
+<pre class="example">
+Go 语言字符有两种:
++ unit8类型，或者叫byte类型，代表一个ASCII码字符。
++ rune类型，等价于int32类型，代表一个UTF-8字符。
+</pre>
+
+<pre class="example">
+Unicode 包中内置了一些用于测试字符的函数，这些函数的返回值都是一个布尔值:
++ 判断是否为字母：unicode.IsLetter(ch)
++ 判断是否为数字：unicode.IsDigit(ch)
++ 判断是否为空白符号：unicode.IsSpace(ch)
+</pre>
+
+<ul class="org-ul">
+<li>中文每个字符占用 3 个字节。</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf93c832" class="outline-2">
+<h2 id="orgf93c832"><span class="section-number-2">2.</span> 字符串格式化</h2>
+<div class="outline-text-2" id="text-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -296,9 +319,9 @@
 </div>
 </div>
 
-<div id="outline-container-org45f7656" class="outline-2">
-<h2 id="org45f7656"><span class="section-number-2">2.</span> 学习资料</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org4e605bc" class="outline-2">
+<h2 id="org4e605bc"><span class="section-number-2">3.</span> 学习资料</h2>
+<div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li><a href="https://gobyexample.com/">Go by Example</a></li>
 <li><a href="http://c.biancheng.net/golang/">Go语言入门教程</a></li>
@@ -311,9 +334,9 @@
 </div>
 </div>
 
-<div id="outline-container-org82ae19a" class="outline-2">
-<h2 id="org82ae19a"><span class="section-number-2">3.</span> 其它</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-org6b02476" class="outline-2">
+<h2 id="org6b02476"><span class="section-number-2">4.</span> 其它</h2>
+<div class="outline-text-2" id="text-4">
 <ul class="org-ul">
 <li><a href="https://github.com/golang/go/wiki/GoUsers">Go Users</a></li>
 </ul>
@@ -325,7 +348,7 @@
 <div id="postamble" class="status">
 <p class="date">Date: 2023</p>
 <p class="author">Author: wlianfu</p>
-<p class="date">Created: 2023-04-03 Mon 16:14</p>
+<p class="date">Created: 2023-04-03 Mon 16:26</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

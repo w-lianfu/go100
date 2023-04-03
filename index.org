@@ -6,6 +6,23 @@
 
 -----
 
+***** 字符
+
+#+BEGIN_SRC
+Go 语言字符有两种:
++ unit8类型，或者叫byte类型，代表一个ASCII码字符。
++ rune类型，等价于int32类型，代表一个UTF-8字符。
+#+END_SRC
+
+#+BEGIN_SRC
+Unicode 包中内置了一些用于测试字符的函数，这些函数的返回值都是一个布尔值:
++ 判断是否为字母：unicode.IsLetter(ch)
++ 判断是否为数字：unicode.IsDigit(ch)
++ 判断是否为空白符号：unicode.IsSpace(ch)
+#+END_SRC
+
++ 中文每个字符占用 3 个字节。
+
 ***** 字符串格式化
 
 | 功能 | 解释                                   |
