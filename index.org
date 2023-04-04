@@ -6,6 +6,30 @@
 
 -----
 
+***** 关键字
+
+| break    | default     | func   | interface | select |
+|----------+-------------+--------+-----------+--------|
+| case     | defer       | go     | map       | struct |
+| chan     | else        | goto   | package   | switch |
+| const    | fallthrough | if     | range     | type   |
+| continue | for         | import | return    | var    |
+
+***** 预定义关键字
+
+#+BEGIN_SRC
+内建常量：true false iota nil
+
+内建类型：int int8 int16 int32 int64
+  uint unit8 unit16 unit32 unit64 uintptr
+  float32 float64 complex128 complex64
+  bool byte rune string error
+
+内建函数：make len cap new append copy close delete
+  complex real imag
+  panic recover
+#+END_SRC
+
 ***** 字符
 
 #+BEGIN_SRC
